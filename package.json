@@ -1,0 +1,30 @@
+{
+  "name": "reactive-x-proj",
+  "version": "1.0.0",
+  "description": "\"# reactive-x\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server  --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p8queiroz/reactive-x.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p8queiroz/reactive-x/issues"
+  },
+  "homepage": "https://github.com/p8queiroz/reactive-x#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
